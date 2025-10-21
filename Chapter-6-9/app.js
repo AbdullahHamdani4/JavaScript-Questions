@@ -25,7 +25,7 @@ document.writeln(`<p>The value for --a - --b + ++b + b-- will be <b>${--a - --b 
 document.writeln(`<h1>Question 3</h1>`);
 let username = "";
 
-while (username === "" || !isNaN(username)) { //!isnan is basically checkig whether user has enter a number or not as isnan means is not a number but using ! says is a number
+while (username === "" || !isNaN(username)) { //!isnan is basically checking whether user has enter a number or not as isnan means is not a number but using ! says is a number
     username = prompt("Enter your username");
 
 } document.writeln(`<p>Welcome Mr.<b style="text-transform: capitalize;">${username}</b> to our Website</p>`);
