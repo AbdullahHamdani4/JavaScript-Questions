@@ -1,4 +1,4 @@
-// Chapter 6-9
+// Chapter 6-9  First Pdf
 
 //Problem 1
 let usercity=prompt("Enter your city name");
@@ -100,7 +100,7 @@ if(user_number== secretnumber){
     console.log("Bingo! Correct answer");
 } else if(secretnumber + 1 == user_number || secretnumber -1 == user_number){
     console.log("Close enough to get the correct answer");
-    
+
 }
 //Problem 8
 let usernumber=prompt("Enter a number");
@@ -115,16 +115,16 @@ else console.log("Number is odd");
 let temperature=+prompt("Enter temperature");
 if(temperature > 40){
      console.log("Its too hot outside");
-     
+
  }else if (temperature > 30){
      console.log("The weather today is Normal");
 
  }else if (temperature > 20){
      console.log("Today's Weather is cool");
-     
+
  }else if (temperature > 10){
      console.log("OMG! Today's weather is so cool");
-     
+
  }
 
 
@@ -138,3 +138,70 @@ document.writeln(`<p>The difference of ${firstnum} and ${secondnum} will be ${fi
 document.writeln(`<p>The product of ${firstnum} and ${secondnum} will be ${firstnum * secondnum}</p>`);
 document.writeln(`<p>The division of ${firstnum} and ${secondnum} will be ${firstnum / secondnum}</p>`);
 document.writeln(`<p>The remainder of ${firstnum} and ${secondnum} will be ${firstnum % secondnum}</p>`);
+
+//Second pdf 12-13
+
+//Problem 1
+let user_character=prompt("Enter a number or string");
+if(!isNaN(user_character)){
+    console.log("A number");
+};
+
+//Problem 2
+let usernumber1=+prompt("Enter number one");
+let usernumber2=+prompt("Enter number two");
+let greater;
+  if(usernumber1 >  usernumber2){
+    greater="Number one is greater than 2"
+    console.log(greater);
+}else if(greater== undefined){
+    greater="Number two is greater than 1"
+    console.log(greater);
+}  
+if(usernumber1==usernumber2){
+     console.log("Both number are equal");
+};
+
+//Problem 3
+let user_guess=+prompt("Tell a number,I will check whether its positive or negative or zero");
+if(user_guess==0){
+    console.log("The number is zero");
+}else if(user_guess <0){
+    console.log("The number is negative");
+} else if(user_guess>0){
+    console.log("The number is positive");
+}
+
+//Problem 4
+let user_vowel=prompt("Enter a character to check whether its a vowel or not");
+user_vowel=user_vowel.toLowerCase();
+if(user_vowel == "a" || user_vowel == "e" || user_vowel == "i" || user_vowel == "o" || user_vowel == "u"){
+    console.log("The given character is a vowel");
+} else if(user_vowel.length == 2){
+    console.log("Please enter single character");
+}else{
+    console.log("Given character is not a vowel");
+
+}
+//Problem 5
+let password="hello123";
+let userpassword=prompt("Guess the password");
+if(userpassword=="" || userpassword == null){
+    console.log("Please enter password");
+}else if(userpassword==password){
+    console.log("You guessed correctly!");
+} else{
+    console.log("Incorrect Password");   
+};
+
+//Problem 6
+let greeting;
+let hour = 13;
+if (hour < 18){
+    greeting="Good Day";
+    console.log(greeting);
+}else{ 
+    greeting="Good evening";
+    console.log(greeting);
+    
+}
