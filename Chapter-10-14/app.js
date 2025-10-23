@@ -133,11 +133,26 @@ if(temperature > 40){
 document.writeln("<h1>Question 11</h1>")
 let firstnum=+prompt("Enter first number",5);
 let secondnum=+prompt("Enter second number",5);
-document.writeln(`<p>The sum of ${firstnum} and ${secondnum} will be ${firstnum + secondnum}</p>`);
-document.writeln(`<p>The difference of ${firstnum} and ${secondnum} will be ${firstnum - secondnum}</p>`);
-document.writeln(`<p>The product of ${firstnum} and ${secondnum} will be ${firstnum * secondnum}</p>`);
-document.writeln(`<p>The division of ${firstnum} and ${secondnum} will be ${firstnum / secondnum}</p>`);
-document.writeln(`<p>The remainder of ${firstnum} and ${secondnum} will be ${firstnum % secondnum}</p>`);
+let operator=prompt("Enter what operation you need to apply");
+if(operator=="+"){
+    console.log(`The sum of ${firstnum} and ${secondnum} will be ${firstnum + secondnum}`);
+}else if(operator == "-"){
+    console.log(`The difference of ${firstnum} and ${secondnum} will be ${firstnum - secondnum}`);
+}else if(operator == "*"){
+    console.log(`The product of ${firstnum} and ${secondnum} will be ${firstnum * secondnum}`);
+}else if(operator == "/"){
+    console.log(`The division of ${firstnum} and ${secondnum} will be ${firstnum / secondnum}`);
+}else if(operator == "%"){
+      console.log(`The remainder of ${firstnum} and ${secondnum} will be ${firstnum % secondnum}`);
+} else{
+    console.log("Please enter a valid JavaScript Operator");
+    
+}
+// document.writeln(`<p>The sum of ${firstnum} and ${secondnum} will be ${firstnum + secondnum}</p>`);
+// document.writeln(`<p>The difference of ${firstnum} and ${secondnum} will be ${firstnum - secondnum}</p>`);
+// document.writeln(`<p>The product of ${firstnum} and ${secondnum} will be ${firstnum * secondnum}</p>`);
+// document.writeln(`<p>The division of ${firstnum} and ${secondnum} will be ${firstnum / secondnum}</p>`);
+// document.writeln(`<p>The remainder of ${firstnum} and ${secondnum} will be ${firstnum % secondnum}</p>`);
 
 //Second pdf 12-13
 
