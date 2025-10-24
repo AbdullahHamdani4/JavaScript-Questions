@@ -1,4 +1,4 @@
-//Guess the Number
+// Guess the Number
 let number=7;
 let user_number=+prompt("Guess the number between 1-10");
 if(user_number == number){
@@ -14,3 +14,6 @@ if(user_number == number){
 }else{
   console.log("Tumse na hopaiga");
 }
+
+
+

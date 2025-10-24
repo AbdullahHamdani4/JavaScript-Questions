@@ -158,9 +158,15 @@ if(operator=="+"){
 
 //Problem 1
 let user_character=prompt("Enter a number or string");
+// console.log(user_character.charCodeAt());
+
 if(!isNaN(user_character)){
     console.log("A number");
-};
+}else if(user_character.charCodeAt()>=65 && user_character.charCodeAt() <=90){
+    console.log("Capital Alphabet");
+  } else if(user_character.charCodeAt()>=97 && user_character.charCodeAt() <=122){
+    console.log("Small Alphabet");
+}else console.log("Special Character");
 
 //Problem 2
 let usernumber1=+prompt("Enter number one");
