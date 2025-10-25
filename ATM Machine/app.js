@@ -15,7 +15,7 @@ if (userpin == pincode) {
     salaryagai = salaryagai.toLowerCase();
     //Nested 1
     if (salaryagai == "no") {
-        console.log("Insufficient Amount");
+        console.log("Salary aye hi nhi hai kya nikalega ");
     } else if (salaryagai == "yes") {
         kitnesalary = prompt("Kitne salary hai?");
         //Nested 2
