@@ -153,7 +153,4 @@ document.writeln(`
         <option>${manufacturers[3]}</option>
         <option>${manufacturers[4]}</option>
         <option>${manufacturers[5]}</option>
-    </select> `)
-
-
-
+    </select> `);
