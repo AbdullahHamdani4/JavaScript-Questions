@@ -153,14 +153,3 @@ for(let i=0; i<paragraph2.length; i++){
 }
 console.log("Text ==>",paragraph2);
 console.log(`There are ${count} occurence of the word the`);
-
- 
-
-
-
-
- 
-
- 
-
-
