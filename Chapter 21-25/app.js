@@ -121,7 +121,7 @@ for(let i=0; i<nam.length; i++){
        } 
        if (alphabet && number && length && first) {
          console.log("Your password is correct and fulfills all the conditios");
-         break
+         breakw
        }
        else{
          console.log("Incorrect");

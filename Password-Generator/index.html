@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #7C9ACB, #D29BB6);
+            height: 100vh;
+        }
+
+        div {
+            height: auto;
+            width: 400px;
+            border: 2px dotted black;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        p {
+            border: 1px solid black;
+            margin: 1rem;
+            padding: 0.5rem 0.2rem;
+            font-size: 18px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        button {
+            padding: 0.7rem 0.9rem;
+            border-radius: 8px;
+            border: none;
+            color: white;
+            background-color: green;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Random Password Generator</h1>
+        <p id="password">Password will appear here, Click on the button</p>
+        <button onclick="createPass()">Generate Password</button>
+     </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
