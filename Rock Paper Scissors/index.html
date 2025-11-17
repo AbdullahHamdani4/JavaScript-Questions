@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+   <style>
+    body{
+        background-color: #28282a;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    img{
+        border: 1px dotted white;
+        margin: 0.6rem;
+        padding: 1rem;
+        height: 150px;
+        width: 150px;
+        border-radius: 8px;
+    }
+
+   </style>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="images-container">
+    <img id="btn1" src="Images/rock-removebg-preview.png" alt="Rock Img">
+    <img id="btn2" src="Images/paper-removebg-preview.png" alt="Paper Img">
+    <img id="btn3" src="Images/scissor-removebg-preview.png" alt="Scissor Img">
+     </div>
+     <div class="scoreSection">
+        <p id="resultPara">Click your desired value</p>
+        <span>Computer <span id="computerScore">0</span></span>
+        <span>You <span id="userScore">0</span></span>
+
+        <!-- <span>1</span> -->
+        <!-- <span>0</span> -->
+     </div>
+    </div>
+     
+     <script src="app.js"></script>
+</body>
+</html>
