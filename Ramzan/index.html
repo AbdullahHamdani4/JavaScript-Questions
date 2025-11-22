@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
  </head>
  <body>
+   <div class="root">
+      <h1 style="margin-bottom: 10px; color: white; font-size: 35px;">Days Calculator</h1>
+      <div class="container">
+         <div class="cont-top">
+            <p style="text-align: start;">Date</p>
+           <div class="input">
+             <input type="date">
+            <button>Calculate</button>
+           </div>
+         </div>
+         <div class="cont-bottom">
+          <div class="days" style="margin: 14px; margin-left: 15px; display: flex; align-items: center; gap: 0.3rem; justify-content: center; margin-top: 15px;">
+            <span style="font-size: 26px;"><b class="day-count">0</b></span>
+            <span style="font-size: 18px;">Days</span>
+          </div>
+          <p style="margin-top: -4px; text-align: center;">
+            <span style=" margin-left: 10px;">
+               <span id="weeks-count" style="font-size: 18px; margin-right: 8px;" ><b style="font-size: 24px;" class="week-count">0</b> Weeks</span>
+               <span style="font-size: 18px;"><b style="font-size:24px;" class="month-count">0</b> Months</span>
+            </span>
+          </p>
+          <!-- <h4 style="text-align: center; margin-top: 0.5rem; text-decoration: underline;">Important Dates</h4> -->
+           <hr style=" margin-top: 0.5rem; border: 1px solid rgba(255, 255, 255, 0.15);">
+          <div class="ex-dates" style="display: flex; gap: 10px; margin-top: 1rem; justify-content: center; flex-wrap: wrap;">
+            <div class="ram-26">
+               <p style="font-size: 15px; font-weight: 600;">Ramzan 2026</p>
+               <span style="font-size: 14px;">17-Feb-2026</span>
+            </div>
+            <div class="eid-26">
+               <p style="font-size: 15px; font-weight: 600;">Eid ul Fitr 2026</p>
+               <span style="font-size: 14px;">19-March-2026</span>
+            </div>
+            <div class="eid-26">
+               <p style="font-size: 15px; font-weight: 600;">Eid ul Adha 2026</p>
+               <span style="font-size: 14px;">27-May-2026</span>
+            </div>
+            <div class="eid-26">
+               <p style="font-size: 15px; font-weight: 600;">Pakistan Day</p>
+               <span style="font-size: 14px;">23-March-2026</span>
+            </div>
+          </div>
+         </div>
+
+      </div>
+
+   </div>
+   
     <script src="app.js"></script>
  </body>
  </html>
