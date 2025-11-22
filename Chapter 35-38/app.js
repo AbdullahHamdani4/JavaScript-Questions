@@ -93,9 +93,7 @@ console.log(checkPalindrome("madam"));
   
 //Problem 11
 function capitalize(input) {
-    let value=input.split("")
-    console.log(value);
-    
+    let value=input.split("")    
      let result;
     for (let i = 0; i <value.length ; i++) {        
          if (value[i] == " ") {
@@ -109,7 +107,18 @@ function capitalize(input) {
 capitalize("the quick brown fox");
 
 //Problem 12
-//.........
+let para="Web development tutorial";
+let paraLength=para.split(" ");
+let lengths=[]
+for (let i =0; i <paraLength.length; i++) {
+   lengths[i]=paraLength[i].length
+}
+lengths.sort((a,b) => b-a);
+for (let i=0; i<paraLength.length; i++){
+    if (lengths[0] == paraLength[i].length) {
+        console.log("The longest word is ==>",paraLength[i]);
+    }
+}   
 
 //Problem 13
 function countLetter(string,letter) {
