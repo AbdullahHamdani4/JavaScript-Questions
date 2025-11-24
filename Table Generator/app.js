@@ -1,12 +1,4 @@
 
-//Table Genetor using function
-function tableGenerator(userNumber = 5) {
- for (let i = 1; i <= 10; i++) {
-        document.writeln(`<p>${userNumber}x${i} =${userNumber * i}</p>`);
-    }
-}
-tableGenerator(10)
-
 //Dice roller using switch statements
 let dice=Math.ceil(Math.random() * 7)
 switch (dice) {
