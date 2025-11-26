@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="container">
+            <div class="inner-container">
+                <p class="mini-heading"><span>Day</span><span>Month</span><span>Year</span></p>
+                <div class="date-container">
+                    <span id="day">00</span>
+                    <span id="month">00</span>
+                    <span id="year">00</span>
+                </div>
+                <p class="mini-heading-2"><span>Hour</span><span>Minutes</span><span>Seconds</span></p>
+                <div class="time-container">
+                    <span id="hour">00 :</span>
+                    <span id="minute">01 :</span>
+                    <span id="second">01</span>
+                </div>
+                <div class="days-container">
+                    <span> <input type="radio" name="day" id="sun" disabled><label for="">Sun</label>
+                    </span>
+                    <span> <input type="radio" name="day" id="mon" disabled><label for="">Mon</label>
+                    </span>
+                    <span><input type="radio" name="day" id="tue" disabled> <label for="">Tue</label></span>
+                    <span><input type="radio" name="day" id="wed" disabled><label for="">Wed</label></span>
+                    <span><input type="radio" name="day" id="thu" disabled><label for="">Thu</label></span>
+                    <span><input type="radio" name="day" id="fri" disabled><label for="">Fri</label></span>
+                    <span><input type="radio" name="day" id="sat" disabled ><label for="">Sat</label></span>
+                </div>
+                <div class="temperature-container">
+                    Temp.
+                    <span>29</span>
+                    <sup>&deg;</sup>C
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
