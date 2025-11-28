@@ -42,10 +42,25 @@ function subjects(sub1, sub2, sub3) {
 console.log(subjects(80, 80, 80));
 
 //Problem 5
-// function (params) {
-
-// }
-
+let parag="my name is abdullah"
+function myIndexOff(char) {
+   if(char.length = 1){
+    for (let i=0; i <parag.length ; i++){
+        if(parag[i]== char){
+            return i
+        }
+    }
+   }
+     if(char.length > 1){
+           for (let i=0; i <parag.length ; i++){
+          if(parag[i]==char[0] && parag.slice(i,i + char.length) == char){
+            console.log(i);
+            return i
+         }
+    }   
+   }
+}
+console.log("The index number is",myIndexOff("a"));
 //Problem 6
 let para = "i am abdullah".toLowerCase();
 let paraIntoArray = para.split("");
@@ -126,3 +141,5 @@ function cash(amount) {
     return   `${hund} ${fifty} ${ten}`
 }
 console.log(cash(570));
+
+  
