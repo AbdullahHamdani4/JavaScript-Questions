@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Chapter 43-48</title>
+    <style>
+        img{
+            padding: 0.5rem;
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+        table{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a href="" onclick="alertShow()">www.google.com</a>
+    <img src="https://images.priceoye.pk/apple-17-pro-max-pakistan-priceoye-5k9fi-500x500.webp" alt="17-pro-max" width="250px" height="250px" onclick="phonePurchased(this)">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY9LCaVwevJAN4--Ededd-LoLbIKpSCcjLhA&s" alt="15-pro-max" width="250px" height="250px" onclick="phonePurchased(this)">
+    <img src="https://www.ubuy.com.pk/productimg/?image=aHR0cHM6Ly9pbWFnZXMtY2RuLnVidXkuY29tLnBrLzY2NTg0ZTY2MjQ2Y2QzNGNjODFhNWRlYS1hcHBsZS1pcGhvbmUteC0yNTZnYi1zcGFjZS1ncmF5LmpwZw.jpg" alt="iphone-x" width="250px" height="250px" onclick="phonePurchased(this)">
+    <img src="https://xcessorieshub.com/wp-content/uploads/2025/03/Samsung-Galaxy-S25-Ultra.webp" alt="s25-ultra" width="250px" height="250px" onclick="phonePurchased(this)">
+
+    <table>
+         <tr>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Bilal</td>
+            <td>65%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>02</td>
+            <td>Hasan</td>
+            <td>75%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>03</td>
+            <td>Asif</td>
+            <td>45%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>04</td>
+            <td>Majid</td>
+            <td>56%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>05</td>
+            <td>Banaras</td>
+            <td>87%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>06</td>
+            <td>Asma</td>
+            <td>90%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>07</td>
+            <td>Unais</td>
+            <td>12%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>08</td>
+            <td>Aftab</td>
+            <td>62%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>09</td>
+            <td>Irfan</td>
+            <td>89%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+        <tr>
+            <td>10</td>
+            <td>Raza</td>
+            <td>78%</td>
+            <td><button onclick="removeRow(this)">Delete</button></td>
+          </tr>
+       
+    </table>
+    <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=600&quality=80" alt="" onmouseover="src='https:/www.shutterstock.com/image-photo/sun-sets-behind-mountain-ranges-600nw-2479236003.jpg'" onmouseout="src='https:/i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=600&quality=80'">
+    <p>Score: <span>0</span></p>
+    <button onclick="increaseScore()">Increase Score</button>
+    <button onclick="decreaseScore()">Decrease Score</button>
+    <script src="app.js"></script>
+</body>
+</html>

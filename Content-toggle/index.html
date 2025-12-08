@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content-toggle</title>
+    <style>
+        body{
+            background: #0b0f19;
+          color: white;
+         }
+        h1 {
+            display: inline-block;
+         }
+         p{
+            display: none;
+         }
+         .hide{
+            display: block;
+            margin: 1rem;
+            margin-top: -1rem;
+            text-align: center;
+            color: #e2dddd;
+            font-size: 1.2rem;
+         } 
+         .heading{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+         }
+         button{
+            padding: 0.6rem;
+            border-radius: 12px;
+            border: none;
+            font-size: 15px;
+            /* font-weight: 600; */
+            color: white;
+            background-color: green;
+         }
+    </style>
+</head>
+
+<body>
+    <div class="root">
+        <div class="container">
+            <!-- <p> -->
+            <div class="heading">
+                <h1>What is HTML?</h1>
+            <button onclick="toggle(this)">See More</button>
+            </div>
+            <!-- </p> -->
+             <br>
+             <p class=""> HTML (HyperText Markup Language) is the foundational language for creating web pages, using tags to structure content like text, images, and links, telling browsers how to display them. It's the "skeleton" of the web, defining the meaning and hierarchy (headings, paragraphs, lists) and working with CSS for styling and JavaScript for interactivity. HTML is platform-independent, easy to learn, and essential for web development. <br> <br>
+                It allows developers to organize information on a webpage in a clear and logical way. By using predefined elements, a page can be divided into sections such as headers, navigation menus, main content areas, and footers. This structure helps browsers understand what each part of the page represents and helps users and search engines read content easily. HTML files are simple text files that can be created and edited with basic text editors and run on any device with a web browser. It supports embedding media like images, audio, and video, making web pages more engaging. Forms created with HTML collect user input such as names, emails, and passwords. Attributes inside tags provide extra information and control behavior. Overall, it forms the base of every website, enabling content to exist on the web in an organized, accessible, and readable format across different platforms. <br> <br>
+                It defines the basic layout of a webpage and controls how content is placed on the screen. <br>
+• It uses elements to represent different types of content such as text blocks, buttons, tables, and forms. <br>
+• It helps browsers interpret content correctly and display it in a readable way. <br>
+• It improves accessibility by giving meaning to content for screen readers and assistive tools. <br>
+• It supports links that connect one page to another, forming the structure of the internet. <br>
+• It works smoothly with other technologies to create complete websites. <br>
+ 
+             </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

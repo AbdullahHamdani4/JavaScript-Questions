@@ -47,7 +47,7 @@ function myIndexOff(char) {
    if(char.length = 1){
     for (let i=0; i <parag.length ; i++){
         if(parag[i]== char){
-            return i
+            return i 
         }
     }
    }
@@ -142,4 +142,5 @@ function cash(amount) {
 }
 console.log(cash(570));
 
-  
+ let number=54.342
+ console.log(number.toFixed(2));
