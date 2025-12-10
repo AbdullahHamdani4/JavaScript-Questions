@@ -21,6 +21,7 @@ body{
  text-align: center;
  background: #2a2b38;
  border-radius: 8px;
+ height: 254px;
 }
 
 /*Inputs*/
@@ -117,9 +118,30 @@ th,td{
     transition: 0.1s ease-in-out;
     transform: scale(1.02);
   }
-  table tr{
+  /* table tr{ */
     /* display: flex; */
     /* gap: 8px; */
     /* border-spacing: 5px; */
+  /* } */
+  @media(max-width:500px){
+     .card{
+        margin-bottom: -26rem;
+     }
+    table{
+        border-spacing: 4px;
+        gap: 0;
+    }
+    table, th, td{
+    /* border: 1px solid #ccc; */
+    width: auto;
+   /* padding: 2px; */
+   font-size: 13px;
+   /* flex-wrap: wrap; */
+   /* word-wrap: break-word; */
+   /* overflow-wrap: break-word; */
+     word-break:break-all
+ }  
+ .buttonTd{
+    word-break: normal;
+ }
   }
-  @media()
