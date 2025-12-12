@@ -21,6 +21,7 @@ let logemail = document.getElementById("logemail");
 let logpass = document.getElementById("logpass");
 let table = document.querySelector("table");
 let tablee = document.querySelector("input");
+
 //Problem 3
 function addData(e) {
     e.preventDefault()

@@ -123,6 +123,7 @@ th,td{
     /* gap: 8px; */
     /* border-spacing: 5px; */
   /* } */
+  
   @media(max-width:500px){
      .card{
         margin-bottom: -26rem;
@@ -144,4 +145,9 @@ th,td{
  .buttonTd{
     word-break: normal;
  }
+  }
+  @media((min-width:413px) and (max-width:500px)){
+    .card{
+        margin-bottom:0;
+     }
   }
