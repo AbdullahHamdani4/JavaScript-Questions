@@ -37,4 +37,5 @@ console.log("Child Node of lastName ==> ",lastName2.childNodes);
 //part iii
 lastName2.childNodes[0].nodeValue = "Alex Bhatti"
 
-//part i
+//part iv
+
