@@ -42,7 +42,7 @@ console.log("First child of main content ==> ", mainContent.firstChild);
 console.log("First child of main content ==> ", mainContent.lastChild);
 
 //part v
-console.log("Previous sibling of lastName", lastName2.previousSibling);
+console.log("Previous sibling of lastName ==> ", lastName2.previousSibling);
 console.log("Next sibling of lastName", lastName2.nextSibling);
 
 //part vi
