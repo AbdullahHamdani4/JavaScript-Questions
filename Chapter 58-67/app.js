@@ -45,6 +45,6 @@ console.log("First child of main content ==> ", mainContent.lastChild);
 console.log("Previous sibling of lastName", lastName2.previousSibling);
 console.log("Next sibling of lastName", lastName2.nextSibling);
 
-//part v
+//part vi
 console.log("Parent node of email", email.parentNode);
 console.log("Node type of email", email.nodeType);
