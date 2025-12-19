@@ -38,8 +38,8 @@ console.log("Child Node of lastName ==> ", lastName2.childNodes);
 lastName2.childNodes[0].nodeValue = "Alex Bhatti"
 
 //part iv
-console.log("First child of main content", mainContent.firstChild);
-console.log("First child of main content", mainContent.lastChild);
+console.log("First child of main content ==> ", mainContent.firstChild);
+console.log("First child of main content ==> ", mainContent.lastChild);
 
 //part v
 console.log("Previous sibling of lastName", lastName2.previousSibling);
