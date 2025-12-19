@@ -47,4 +47,4 @@ console.log("Next sibling of lastName", lastName2.nextSibling);
 
 //part vi
 console.log("Parent node of email ==> ", email.parentNode);
-console.log("Node type of email ==>", email.nodeType);
+console.log("Node type of email ==> ", email.nodeType);
