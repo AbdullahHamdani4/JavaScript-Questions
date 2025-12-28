@@ -66,3 +66,14 @@ console.log(student2);
 let student3=constructor("Bilal","bilal123@gmail.com","bilal99");
 console.log(student3);
 
+//Problem 4
+let btn=document.getElementsByName("radio")
+console.log(btn);
+function areaConstructor(gender,address,education,profession) {
+      return {
+        gender:gender,
+        address:address,
+        education:education,
+        profession:profession
+    }
+}
