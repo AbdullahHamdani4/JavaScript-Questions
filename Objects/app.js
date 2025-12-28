@@ -59,5 +59,10 @@ function constructor(name,email,password) {
         password:password
     }
 }
-console.log(constructor("","abdullah",));
+let student1=constructor("Hasan","hasan123@gmail.com","hasan99");
+console.log(student1);
+let student2=constructor("Ismail","ismail123@gmail.com","ismail99");
+console.log(student2);
+let student3=constructor("Bilal","bilal123@gmail.com","bilal99");
+console.log(student3);
 
