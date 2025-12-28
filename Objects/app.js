@@ -59,4 +59,5 @@ function constructor(name,email,password) {
         password:password
     }
 }
+console.log(constructor("","abdullah",));
 
