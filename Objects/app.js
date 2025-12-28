@@ -29,7 +29,7 @@ var itemsArray = [
     { name: "shirt", price: "880", quantity: "1" },
     { name: "pen", price: "100", quantity: "2" }
 ];
-console.log( "The Total bill will be",
+console.log("The Total bill will be",
     parseInt(itemsArray[0].price) * itemsArray[0].quantity +
     parseInt(itemsArray[1].price) * itemsArray[1].quantity +
     parseInt(itemsArray[2].price) * itemsArray[2].quantity +
@@ -52,28 +52,35 @@ console.log("Does data have lastname property ?", "firstname" in data);
 console.log("Does data have lastname property ?", "lastname" in data);
 
 //Problem 3
-function constructor(name,email,password) {
+function constructor(name, email, password) {
     return {
-        name:name,
-        email:email,
-        password:password
+        name: name,
+        email: email,
+        password: password
     }
 }
-let student1=constructor("Hasan","hasan123@gmail.com","hasan99");
+let student1 = constructor("Hasan", "hasan123@gmail.com", "hasan99");
 console.log(student1);
-let student2=constructor("Ismail","ismail123@gmail.com","ismail99");
+let student2 = constructor("Ismail", "ismail123@gmail.com", "ismail99");
 console.log(student2);
-let student3=constructor("Bilal","bilal123@gmail.com","bilal99");
+let student3 = constructor("Bilal", "bilal123@gmail.com", "bilal99");
 console.log(student3);
 
 //Problem 4
-let btn=document.getElementsByName("radio")
-console.log(btn);
-function areaConstructor(gender,address,education,profession) {
-      return {
-        gender:gender,
-        address:address,
-        education:education,
-        profession:profession
+let btn = document.getElementsByName("radio")
+ // console.log(btn);
+function checkValue() {
+    for (let i = 0; i < btn.length; i++) {
+    if(btn[i].checked == true){
+        console.log(btn[i].previousElementSibling.innerText);
+    }
+}
+}
+function areaConstructor(gender, address, education, profession) {
+    return {
+        gender: gender,
+        address: address,
+        education: education,
+        profession: profession
     }
 }

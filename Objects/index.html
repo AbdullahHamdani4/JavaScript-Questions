@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Objects</title>
 </head>
+
 <body>
-    <label for="">Male</label><input type="radio" name="radio" id="">
-    <label for="">Female</label><input type="radio" name="radio" id="">
-    <label for="">Other</label><input type="radio" name="radio" id="">
+    <label for="">Male</label><input type="radio" name="radio" id="" onclick="checkValue()">
+    <label for="">Female</label><input type="radio" name="radio" id="" onclick="checkValue()">
+    <label for="">Other</label><input type="radio" name="radio" id="" onclick="checkValue()">
+    <select name="" id="Education">
+        <option value="" disabled selected>Education</option>
+        <option value="">Matric</option>
+        <option value="">Intermediate</option>
+        <option value="">B.Com</option>
+        <option value="">BSCS</option>
+        <option value="">BSAI</option>
+    </select>
+     <select name="" id="Profession">
+        <option value="" disabled selected>Profession</option>
+        <option value="">Software Engineer</option>
+        <option value="">Sales Manager</option>
+        <option value="">Marketing Head</option>
+        <option value="">SEO Specialist</option>
+        <option value="">AI Engineer</option>
+    </select>
     <script src="app.js"></script>
 </body>
+
 </html>
