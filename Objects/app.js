@@ -56,7 +56,7 @@ function constructor(name,email,password) {
     return {
         name:name,
         email:email
-
+        password
     }
 }
 
