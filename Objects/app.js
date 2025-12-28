@@ -55,8 +55,8 @@ console.log("Does data have lastname property ?", "lastname" in data);
 function constructor(name,email,password) {
     return {
         name:name,
-        email:email
-        password
+        email:email,
+        password:password
     }
 }
 
